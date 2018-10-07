@@ -1,0 +1,48 @@
+header {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+p {
+    padding: 0 20%;
+    margin: 10 0;
+}
+
+.bodyp{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    width: auto; 
+    padding: 5px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+#picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+}
+
+article {
+    border: 1px dotted;
+    
+}
