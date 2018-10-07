@@ -1,3 +1,9 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+}
+
 header {
     text-align: center;
 }
@@ -5,13 +11,17 @@ header {
 h1, h2, h3 {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'Roboto';
     font-weight: 700;
 }
 
-p {
-    padding: 0 20%;
-    margin: 10 0;
+p.bodyp {
+    margin: 10 10;
+    line-height: 22px;
+}
+
+p.footerp {
+    padding: 0;
+    margin: 2 0;
 }
 
 .bodyp{
@@ -39,10 +49,19 @@ figcaption {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 47%;
+    width: 600px;
 }
 
 article {
     border: 1px dotted;
-    
+    width: 60%;
+    box-align: center;
+    margin: 0 20%;
+}
+
+footer {
+    display: block;
+    box-align: center;
+    margin: 0 30%;
+    text-align: center;
 }
