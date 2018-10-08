@@ -26,6 +26,7 @@ p.footerp {
 
 .bodyp{
     font-weight: 300;
+    min-width: 600px;
 }
 
 figure {
@@ -53,18 +54,24 @@ figcaption {
 
 article {
     /* border: 1px dotted; */
-    width: 60%;
+    /* width: 60%; */
     box-align: center;
-    margin: 0 20%;
+    margin: 0 auto;
+    min-width: 600px;
+    max-width: 60%;
 }
 
 footer {
     display: block;
     box-align: center;
-    margin: 0 30%;
+    margin: 0 auto;
     text-align: center;
+    width: 60%;
+    min-width: 600px;
 }
 
 hr {
-    width: 60%;
+    box-align: center;
+    max-width: 60%;
+    min-width: 600px;
 }
