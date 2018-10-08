@@ -52,7 +52,7 @@ figcaption {
 }
 
 article {
-    border: 1px dotted;
+    /* border: 1px dotted; */
     width: 60%;
     box-align: center;
     margin: 0 20%;
@@ -63,4 +63,8 @@ footer {
     box-align: center;
     margin: 0 30%;
     text-align: center;
+}
+
+hr {
+    width: 60%;
 }
